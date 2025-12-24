@@ -12,7 +12,7 @@ APP_PASSWORD = "kmakbshmgwahgndi"
 RECIPIENT_EMAIL = "harshetha1674@gmail.com"
 
 # IMPORTANT: use ngrok URL when testing on phone/email
-BASE_URL = "http://127.0.0.1:5000/track?client_id=1&shift="
+BASE_URL = "https://nudges-1.onrender.com/track?client_id=1&shift="
 
 def send_text_email(subject, body):
     msg = MIMEText(body)
